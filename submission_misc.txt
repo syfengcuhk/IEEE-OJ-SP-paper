@@ -1,0 +1,12 @@
+Contribution;
+This study contributes to unsupervised acoustic modeling in the area of speech processing. On one hand we proposed a state-of-the-art approach  to learning fundamental speech units (phonemes) of an unknown language without requiring its linguistic knowledge. On the other hand, we made    comprehensive and systematic analyses on why and how this approach is effective, from several aspects including phoneme level and articulatory features.
+
+Why significant:
+There are over 7000 spoken languages in the world, most of which are considered low-resourced. High-performing automatic speech recognition (ASR) techniques cannot be directly applicable to these low-resource languages. Our study can help learning phonemes of  such low-resource languages in an unsupervised manner. Our study forms the first step towards the ultimate goal of unsupervised ASR.
+
+Unsupervised Subword Modeling Using Autoregressive Pretraining and Cross-Lingual Phone-Aware Modeling. INTERSPEECH 2020: 2732-2736
+
+The zero resource speech challenge 2017. ASRU 2017: 323-330
+An Unsupervised Autoregressive Model for Speech Representation Learning. INTERSPEECH 2019: 146-150
+
+In most past studies that focus on unsupervised acoustic modeling, approaches were proposed and compared only in an overall evaluation metric, which did not provide insights on whether acoustic unit representations learned by these approaches are of good consistency to every individual true phonemes. We, to the best of our knowledge for the first time in the literature, additionally present detailed analyses that explore the question of the effectiveness of the proposed approach to capturing phoneme and articulatory feature (AF) information of the target language. Furthermore, the approach that we proposed and  was analyzed achieves state-of-the-art. 
